@@ -40,6 +40,7 @@ function GuessingGame() {
   return (
     <div style={{ maxWidth: '400px', margin: '50px auto', textAlign: 'center' }}>
       <h2>🎯 Guessing Number Game</h2>
+      <h4>Guess a number between 0 and 100</h4>
       <p>{message}</p>
 
       {!gameOver && (
@@ -71,5 +72,3 @@ function GuessingGame() {
 }
 
 export default GuessingGame;
-//comment
-//com
