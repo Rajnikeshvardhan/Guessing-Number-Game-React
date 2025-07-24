@@ -21,4 +21,5 @@ React state management and user interaction handling.
 Logic implementation for real-time suggestions and feedback.
 
 Created a complete mini-app using functional components and clean UI.
+<img width="1352" height="590" alt="image" src="https://github.com/user-attachments/assets/a35808be-23df-4fa0-b98e-4a0eb3c0b924" />
 
