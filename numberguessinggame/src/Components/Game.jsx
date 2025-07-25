@@ -22,11 +22,11 @@ function GuessingGame() {
 
     if (num < targetNumber) {
       setMin(Math.max(min, num + 1));
-      setMessage(`📉 Too low! Try between ${num + 1} and ${max}`);
+      setMessage(`❌wrong! Too low! Try between ${num + 1} and ${max}`);
       
     } else if (num > targetNumber) {
       setMax(Math.min(max, num - 1));
-      setMessage(`📈 Too high! Try between ${min} and ${num - 1}`);
+      setMessage(`❌wrong! Too high! Try between ${min} and ${num - 1}`);
     } else {
       setMessage(`🎉 Correct! The number was ${targetNumber}. You guessed it in ${attempts + 1} attempts.`);
       setGameOver(true);
